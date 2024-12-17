@@ -9,11 +9,11 @@
 }
 
 header{
-    background-color: #b8b4b4;
+    background-color: hwb(198 0% 0%);
     width: 100%;
     position: fixed;
     z-index: 999;
-    /* display: flex; */
+    /* display: table-row; */
     justify-content: space-between;
     align-items: center;
     padding: 10px 200px;
@@ -21,19 +21,18 @@ header{
 
 .logo{
     text-decoration: none;
-    color: #0e0e8a;
+    color: hsl(0, 0%, 100%);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
+    margin: 0 1em;
 }
 
 .navigation a{
     color: #0e0e8a;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 500;
-    font-size: 1.1em;
-    padding-left: 30px;
+    margin-left: 15px;
 }
 .navigation a:hover{
     color: #601cfc;
@@ -44,19 +43,19 @@ section{
     padding: 100px 20px;
 }
 
-.main {
-    width: 100%;
+ .main {
+    width: 100%; 
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-color: hsl(239, 89%, 14%);
+    background-image: url(image/WhatsApp\ Image\ 2024-12-17\ at\ 05.53.02_08ca6a8b.jpg);
     background-attachment: fixed;
-    background-position: right top;
-     
+    background-position: center;    
+    padding-left: 3em; 
 }
 
 .main h2{
-    color: white;
+    color:hwb(198 0% 0%) ;
     font-size: 1.4em;
     font-weight: 500;
 }
@@ -67,6 +66,10 @@ section{
     color: hwb(198 0% 0%);
     font-size: 3em;
     font-weight: 600;
+}
+.main h2 span strong{
+    color: white;
+    font-size: 70px;
 }
 
 .main h3{
@@ -114,7 +117,7 @@ section{
 
 .content{
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 
 .card{
@@ -124,7 +127,6 @@ section{
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
-
 }
 .card:hover{
     transform:  scale(1.1);
@@ -149,8 +151,8 @@ section{
 }
 
 .footer{
-    background-color: #0e0e8a;
-    color: white;
+    background-color: hwb(198 0% 0%); 
+    color:  #0e0e8a;
     padding: 1.7em;
     display: flex;
     justify-content: space-between;
@@ -161,7 +163,7 @@ section{
     font-size: 600;
 }
 .footer-title span{
-    color: hwb(198 0% 0%);
+    color: #0e0e8a;
 }
 .footer-social-icon{
     font-size: 1.3em;
